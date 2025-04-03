@@ -20,7 +20,7 @@ class CustomDatabaseSessionHandler extends DatabaseSessionHandler
         $this->excludedCallbacks[] = $callback;
     }
 
-    public function write(string $sessionId, string $data): bool
+    public function write($sessionId, $data): bool
     {
         $request = request();
 
