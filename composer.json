@@ -1,0 +1,30 @@
+{
+  "name": "amuzcorp/laravel-custom-session-handler",
+  "description": "Custom session handler for Laravel that allows excluding last_activity updates",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zerogon",
+      "email": "zerogon@amuz.co.kr"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/support": "^9.0|^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Amuz\\CustomSession\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Amuz\\CustomSession\\CustomSessionServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
