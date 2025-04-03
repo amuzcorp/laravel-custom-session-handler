@@ -10,8 +10,7 @@
     }
   ],
   "require": {
-    "php": "^8.0",
-    "illuminate/support": "^9.0|^10.0|^11.0"
+    "php": ">=8.2"
   },
   "autoload": {
     "psr-4": {
@@ -26,5 +25,11 @@
     }
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "repositories": {
+    "custom-session-handler": {
+      "type": "vcs",
+      "url": "https://github.com/amuzcorp/laravel-custom-session-handler"
+    }
+  }
 }

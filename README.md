@@ -5,4 +5,4 @@ This package provides a database session handler that allows excluding certain r
 ## Installation
 
 ```bash
-composer require your-org/laravel-custom-session-handler
+composer require amuzcorp/laravel-custom-session-handler
