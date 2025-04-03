@@ -1,7 +1,7 @@
 {
   "name": "amuzcorp/laravel-custom-session-handler",
   "description": "Custom session handler for Laravel that allows excluding last_activity updates",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "library",
   "license": "MIT",
   "authors": [
