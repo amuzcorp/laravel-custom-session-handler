@@ -25,11 +25,5 @@
     }
   },
   "minimum-stability": "dev",
-  "prefer-stable": true,
-  "repositories": {
-    "custom-session-handler": {
-      "type": "vcs",
-      "url": "https://github.com/amuzcorp/laravel-custom-session-handler"
-    }
-  }
+  "prefer-stable": true
 }

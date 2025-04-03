@@ -18,12 +18,10 @@ class CustomSessionServiceProvider extends ServiceProvider
                 $app
             );
 
-            // exclude by route names
             $handler->excludeRoutes([
                 'health.check',
             ]);
 
-            // exclude by user-defined callback
             $handler->addExclusionCallback(function ($request) {
                 return str_contains($request->header('User-Agent'), 'HealthChecker');
             });
