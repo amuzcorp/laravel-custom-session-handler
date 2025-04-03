@@ -49,4 +49,13 @@ class CustomDatabaseSessionHandler extends DatabaseSessionHandler
             ]
         );
     }
+
+    protected function getUserId(): ?int
+    {
+        try {
+            return optional(auth()->user())->getAuthIdentifier();
+        } catch (\Throwable $e) {
+            return null;
+        }
+    }
 }

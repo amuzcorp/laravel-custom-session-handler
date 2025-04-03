@@ -42,7 +42,7 @@ SESSION_DRIVER=custom_database
 필요한 경우 다음 명령어로 설정 파일을 퍼블리시할 수 있습니다:
 
 ```bash
-php artisan vendor:publish --tag=config
+php artisan vendor:publish --provider="Amuz\CustomSession\CustomSessionServiceProvider" --tag=config
 ```
 
 ---
