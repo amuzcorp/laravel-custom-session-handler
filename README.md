@@ -37,6 +37,14 @@ SESSION_DRIVER=custom_database
 
 확인만 하면 됩니다. (`SESSION_DRIVER` 값을 가져오기 때문에 수정 불필요)
 
+### 3. 설정 파일 퍼블리시 (선택사항)
+
+필요한 경우 다음 명령어로 설정 파일을 퍼블리시할 수 있습니다:
+
+```bash
+php artisan vendor:publish --tag=config
+```
+
 ---
 
 ## 🧩 자동 등록되는 Service Provider
